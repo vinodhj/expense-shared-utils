@@ -1,7 +1,12 @@
 {
   "name": "@dizzy/shared-utils",
+  "version": "1.0.0",
   "module": "src/index.ts",
   "type": "module",
+  "scripts": {
+    "build": "bun build ./src/index.ts --outdir ./dist --target=bun",
+    "prepublishOnly": "bun run build"
+  },
   "devDependencies": {
     "@types/bun": "latest"
   },
