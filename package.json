@@ -1,5 +1,5 @@
 {
-  "name": "@dizzy/shared-utils",
+  "name": "@vinodh_jeevanantham/shared-utils",
   "version": "1.0.0",
   "module": "src/index.ts",
   "type": "module",
