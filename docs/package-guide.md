@@ -88,6 +88,9 @@ In your package's package.json, ensure you have a types or typings field:
   ...
 }
 
+# update readme file with new version
+bun add @vinodhj/expense-shared-utils@1.1.0
+
 # Save the changes and commit to repo
 git add --all && git commit -m "Your changes"
 
