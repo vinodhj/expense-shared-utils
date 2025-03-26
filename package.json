@@ -1,5 +1,8 @@
 {
-  "name": "@vinodh_jeevanantham/shared-utils",
+  "name": "@vinodhj/shared-utils",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "version": "1.0.0",
   "module": "src/index.ts",
   "type": "module",
