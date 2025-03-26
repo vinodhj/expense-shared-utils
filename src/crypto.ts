@@ -4,7 +4,7 @@ export async function generateHmacSignature(
 ): Promise<string> {
   const encoder = new TextEncoder();
 
-  // Import the secret key
+  // Import the secret key as a HMAC key
   const secretKey = await crypto.subtle.importKey(
     "raw",
     encoder.encode(secret),

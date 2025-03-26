@@ -89,11 +89,11 @@ In your package's package.json, ensure you have a types or typings field:
 }
 
 # Save the changes and commit to repo
-git add && git commit && git push
+git add --all && git commit -m "Your changes"
 
 # Create and push a git tag
 git tag v1.1.0
-git push origin v1.1.0
+git push origin main v1.1.0
 
 # Build the package
 bun run build
