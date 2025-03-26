@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "@vinodhj/expense-shared-utils",
+=======
+  "name": "@vinodhj/shared-utils",
+>>>>>>> 0b9f87b7c1abab0765bfe9475fe8850c390faecb
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   },
@@ -8,9 +12,15 @@
   "type": "module",
   "repository": {
     "type": "git",
+<<<<<<< HEAD
     "url": "https://github.com/vinodhj/expense-shared-utils"
   },
   "homepage": "https://github.com/vinodhj/expense-shared-utils#readme",
+=======
+    "url": "https://github.com/vinodhj/shared-utils"
+  },
+  "homepage": "https://github.com/vinodhj/shared-utils#readme",
+>>>>>>> 0b9f87b7c1abab0765bfe9475fe8850c390faecb
   "scripts": {
     "build": "bun build ./src/index.ts --outdir ./dist --target=bun",
     "prepublishOnly": "bun run build"
