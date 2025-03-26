@@ -5,6 +5,7 @@
   },
   "version": "1.0.0",
   "module": "src/index.ts",
+  "types": "./index.d.ts",
   "type": "module",
   "repository": {
     "type": "git",
