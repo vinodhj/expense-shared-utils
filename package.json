@@ -3,7 +3,7 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   },
-  "version": "4.7.1",
+  "version": "4.7.2",
   "module": "src/index.ts",
   "types": "./index.d.ts",
   "type": "module",
@@ -14,8 +14,7 @@
   "homepage": "https://github.com/vinodhj/expense-shared-utils#readme",
   "scripts": {
     "build": "bun build ./src/index.ts --outdir ./dist --target=bun",
-    "prepublishOnly": "bun run build",
-    "publish": "npm publish"
+    "prepublishOnly": "bun run build"
   },
   "devDependencies": {
     "@types/bun": "latest"
