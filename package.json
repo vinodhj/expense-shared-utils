@@ -14,7 +14,8 @@
   "homepage": "https://github.com/vinodhj/expense-shared-utils#readme",
   "scripts": {
     "build": "bun build ./src/index.ts --outdir ./dist --target=bun",
-    "prepublishOnly": "bun run build"
+    "prepublishOnly": "bun run build",
+    "bundle-size": "./bundle-size.sh"
   },
   "devDependencies": {
     "@types/bun": "latest"
