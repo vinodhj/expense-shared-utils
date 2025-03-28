@@ -9,7 +9,7 @@ Shared utility functions for Cloudflare Workers and Web Crypto operations.
 bun add @vinodhj/expense-shared-utils@5.2.0
 
 # or using github tag version
-bun add "github:vinodhj/expense-shared-utils#v4.0.0"
+bun add "github:vinodhj/expense-shared-utils#v5.2.0"
 
 
 # Or use GitHub repository reference
